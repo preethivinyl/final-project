@@ -1,0 +1,6 @@
+services:
+
+ capstone02:
+    image: final-project
+    ports:
+    - "80:80"
