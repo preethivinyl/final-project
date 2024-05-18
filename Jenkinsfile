@@ -13,7 +13,7 @@ pipeline {
             steps {
                 script{
                     sh 'chmod +x deploy.sh'
-                    sh './build.sh'
+                    sh './deploy.sh'
                 }
             }
         }
