@@ -17,12 +17,5 @@ pipeline {
                 }
             }
         }
-        stage("checkout") {
-            steps {
-                script{
-                    checkout scmGit(branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[credentialsId: 'finaltoken01', url: 'https://github.com/preethivinyl/final-project.git']])
-                }
-            }
-       }
    }
 }   
